@@ -32,6 +32,9 @@ header {
     margin: 20px auto 0 auto;
  
 }
+header .tablet-desktop { 
+    display: none;
+}
 header .dropdown { 
     background-color: var(--primary);
     display: flex;
@@ -205,3 +208,60 @@ footer ul li a:visited {
 
 
 
+@media screen and (min-width: 768px) { 
+    #contact-me { 
+        display: block;
+        text-align: center;
+    }
+
+    .project-header { 
+        width: 90%;
+        text-align: center;
+    }
+
+    .card { 
+        margin: 10px 10px;
+    }
+
+    #contact-me { 
+        padding-top: 20px; 
+    }
+    
+    header div.dropdown { 
+        display: none;
+    }
+
+    header .tablet-desktop { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .tablet-desktop ul { 
+        display: flex;
+    }
+
+    .tablet-desktop li { 
+        list-style: none;
+        padding: 5px;
+    }
+
+    .tablet-desktop li a { 
+        text-decoration: none;
+        color: white;
+    }
+
+    footer { 
+        height: 50px;
+        font-size: 2em;
+    }
+    #about { 
+        padding: 5px 60px;
+        height: 200px;
+    }
+
+
+
+}

@@ -107,16 +107,16 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Create Grid Layout for entire page | H | 1hr | 0.5 hr |
-| Hamburger | H | 1.5hr | hr |
+| Hamburger | H | 1hr | 1.5hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1.5hr | hr | 
-| Footer Nav  | H | 1hr | hr | 
-| Adding Form | H | 1hr|  hr | 
-| Bootstrap | H | 4hr | hr |
-| Other sections and flex| M | 3hr | hr|
+| Regular Nav | H | 1hr | 1.5hr | 
+| Footer Nav  | H | 1hr | 0.5hr | 
+| Adding Form | H | 1hr|  0.5hr | 
+| Bootstrap | H | 4hr | 1hr |
+| Other sections and flex| M | 3hr | 0.5hr|
 | Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
+| Responsive | H | 3hr | 1hr |
+| Social Media Icons | L | 1hr |  0.25hr |
 | Total | H | 22hrs | hrs |
 
 #### PostMVP

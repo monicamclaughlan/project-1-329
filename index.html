@@ -50,8 +50,17 @@
   <body>
     <!-- HEADER SECTION -->
     <header>
+      <div class="tablet-desktop"> 
+        <h2>Logo</h2>
+        <ul>
+            <li><a href="#title">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#social">Blog</a></li>
+      </div>
       <div class="dropdown">
-        <h2>LOGO</h2>
+        <h2 class="logo">LOGO</h2>
         <a class="fas fa-bars"href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
          
         </a>
@@ -74,7 +83,9 @@
         <p>I am a detail oriented Software Engineer.  Focused on producing an efficient, repsonsive and beautiful design.</p>
       </section>
       <section id="projects">
+        <div class="project-header">
         <p>Projects</p>
+        </div>
         <div class="card" style="width: 18rem;">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
@@ -114,17 +125,21 @@
 
       </section>
       <section id="contact-me">
-        <p>Contact Me</p>
-        <form action="/action_page.php">
-          <label for="fname">First name:</label><br>
-          <input class="input-text" type="text" id="fname" name="fname" value="Name"><br>
-          <label for="email">Last name:</label><br>
-          <input class="input-text" type="text" id="email" name="email" value="Email"><br>
-          <label for="message">Message</label><br>
-          <textarea name="message" rows="10" cols="30"> </textarea><br>
-          <input type="submit" value="Submit" id="submit-button">
+        <div>
+          <p>Contact Me</p>
+        </div>
+        <div class="form">
+          <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input class="input-text" type="text" id="fname" name="fname" value="Name"><br>
+            <label for="email">Email:</label><br>
+            <input class="input-text" type="text" id="email" name="email" value="Email"><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" rows="10" cols="30"> </textarea><br>
+            <input type="submit" value="Submit" id="submit-button">
 
-        </form>
+          </form>
+      </div>
       </section>
       <section id="social">
         <div class="social-media">
