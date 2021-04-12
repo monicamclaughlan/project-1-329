@@ -1,0 +1,52 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { 
+    --title: 'Noto Sans JS', sans-serif; 
+    --main: 'Roboto', sans-serif;
+    --primary: #F39189;
+    --seconday: #eeeeee;
+    --tertiary: #6E7582;
+    --white: #ffffff;
+    --foot: #046582;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--title);
+}
+
+header .wrapper { 
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px; 
+}
+
+#menu ul { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#menu li { 
+    color: var(--white);
+    list-style: none;  
+    font-size: 10px; 
+}
+
+.wrapper #menu { 
+    display: none;
+}
+
+.wrapper a.icon { 
+    background-color: --primary;
+    color: black;
+    display: block;
+}
+
