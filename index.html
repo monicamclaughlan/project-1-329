@@ -36,7 +36,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <script src="https://kit.fontawesome.com/bc7c909819.js" crossorigin="anonymous"></script>
 
 
 
@@ -48,42 +50,69 @@
   <body>
     <!-- HEADER SECTION -->
     <header>
-      <div class="wrapper">
+      <div class="dropdown">
         <h2>LOGO</h2>
-        <nav id="menu">
-          <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PROJECTS</li>
-            <li>CONTACT</li>
-            <li>BLOG</li>
-          </ul>
-        </nav>
-        <a href="javascript:void(0);" class="icon" onclick="toggle()"><i class="fa fa-bars"></i>
+        <a class="fas fa-bars"href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+         
         </a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">About</a></li>
+          <li><a class="dropdown-item" href="#">Projects</a></li>
+          <li><a class="dropdown-item" href="#">Contact</a></li>
+          <li><a class="dropdown-item" href="#">Blog</a></li>
+        </ul>
       </div>
     </header>
     <!-- MAIN SECTION -->
     <main>
       <section id="title">
-        <h1> Hello. I'm Monica.</h1>
+        <p> Hello. I'm Monica.</p>
       </section>
       <section id="about">
-        <h2>I am a detail oriented Software Engineer.  Focused on producing an efficient, repsonsive and beautiful design.</h2>
+        <p>I am a detail oriented Software Engineer.  Focused on producing an efficient, repsonsive and beautiful design.</p>
       </section>
       <section id="projects">
+        <p>Projects</p>
 
       </section>
       <section id="contact-me">
-      
+        <p>Contact Me</p>
+        <form action="/action_page.php">
+          <label for="fname">First name:</label><br>
+          <input class="input-text" type="text" id="fname" name="fname" value="Name"><br>
+          <label for="email">Last name:</label><br>
+          <input class="input-text" type="text" id="email" name="email" value="Email"><br>
+          <label for="message">Message</label><br>
+          <textarea name="message" rows="10" cols="30"> </textarea><br>
+          <input type="submit" value="Submit" id="submit-button">
+
+        </form>
       </section>
       <section id="social">
-        
+        <div class="social-media">
+          <h3> Social Media</h3>
+          <ul>
+            <li><i class="fab fa-linkedin"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-facebook"></i></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog</h3>
+        </div>
       </section>
-
     </main>
 
     <!-- FOOTER SECTION -->
-    <footer></footer>
+    <footer>
+      <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+    </footer>
   </body>
 </html>

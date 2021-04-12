@@ -106,10 +106,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Create Grid Layout for entire page | H | 1hr | hr |
-| Hamburger | H | 1hr | hr |
+| Create Grid Layout for entire page | H | 1hr | 0.5 hr |
+| Hamburger | H | 1.5hr | hr |
 | Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr | 
+| Regular Nav | H | 1.5hr | hr | 
 | Footer Nav  | H | 1hr | hr | 
 | Adding Form | H | 1hr|  hr | 
 | Bootstrap | H | 4hr | hr |
@@ -145,6 +145,9 @@ Use this section to include a brief code snippet of functionality that you are p
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
+
+Hamburger menu toggle when in mobile view: 
+ https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 
 

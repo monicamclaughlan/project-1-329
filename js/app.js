@@ -35,12 +35,12 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
     console.error(error)
 })
 
- const toggle = () => {
-    var x = document.getElementById("menu");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
+//  const toggle = () => {
+//     var x = document.getElementById("menu");
+//     if (x.style.display === "block") {
+//       x.style.display = "none";
+//     } else {
+//       x.style.display = "block";
+//     }
+//   }
   
