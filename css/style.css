@@ -262,6 +262,10 @@ footer ul li a:visited {
         height: 200px;
     }
 
+    textarea, #fname, #email{ 
+        width: 500px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) { 
@@ -271,4 +275,14 @@ footer ul li a:visited {
     #about { 
         font-size: 1.5em;
     }
+    #about div { 
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1440px) { 
+    textarea, #fname, #email { 
+        width: 700px;
+    }
+  
 }
