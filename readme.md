@@ -112,11 +112,12 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Regular Nav | H | 1hr | hr | 
 | Footer Nav  | H | 1hr | hr | 
 | Adding Form | H | 1hr|  hr | 
+| Bootstrap | H | 4hr | hr |
 | Other sections and flex| M | 3hr | hr|
 | Working with API | H | 3hrs|  hr | 
 | Responsive | H | 3hr | hr | hr |
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 18hrs | hrs |
+| Total | H | 22hrs | hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -127,9 +128,8 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Interactive Banner | M | 4hr | hr |
 | Headless CMS for Blog | H | 4hr | hr |
 | Make carousel for skills | M | 4hr | hr | 
-| Bootstrap | H | 4hr | hr |
 | Make own icon | L | 4hr | hr |
-| Total | H | 27hrs| hrs |
+| Total | H | 23hrs| hrs |
 
 ## Additional Libraries
 
