@@ -95,10 +95,20 @@ header .dropdown {
     justify-content: center;
 }
 
+#projects .project-title { 
+    font-size: 1.5em;
+    font-weight: 700;
+
+}
+
+#projects h5 { 
+    font-weight: 700;
+}
+
 #projects p { 
     font-family: var(--title);
-    font-weight: 700;
-    font-size: 1.5em;
+    font-weight: 400;
+    font-size: 1em;
     height: 50%;
 }
 

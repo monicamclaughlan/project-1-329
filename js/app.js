@@ -18,16 +18,26 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
             
         }  
     })
+    console.log(projects)
 //////////// jQuery ///////////////
+    const $projects = $('#projects')
+    
 
-    // projects.forEach((project) => {
-    //     $('body').append(`
-    //     <div> </div>
-    //     <h1>${project.project}</h1>
-        
-    //     `)
-    // });
-
+    projects.forEach((project, index) => {
+        console.log(project)
+        const $projectCard = $(`
+        <div class="card" style="width: 18rem;">
+        <img src="${project.image}" class="card-img-top" alt="project.image">
+        <div class="card-body">
+          <h5 class="card-title">${project.project}</h5>
+          <p class="card-text">${project.description}</p>
+          <a href="${project.liveURL}" class="btn btn-primary btn-sm">App</a>
+          <a href="${project.gitURL}" class="btn btn-primary btn-sm">GitHub</a>
+        </div>
+      </div> `)
+      $projects.append($projectCard)
+    })
+    
 })
 
 // .catch in case of an error
@@ -35,12 +45,5 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
     console.error(error)
 })
 
-//  const toggle = () => {
-//     var x = document.getElementById("menu");
-//     if (x.style.display === "block") {
-//       x.style.display = "none";
-//     } else {
-//       x.style.display = "block";
-//     }
-//   }
+
   
