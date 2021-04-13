@@ -140,8 +140,24 @@ Bootstrap - Card Styling  - https://getbootstrap.com/docs/5.0/components/card/
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
+    projects.forEach((project, index) => {
+        console.log(project)
+        const $projectCard = $(`
+        <div class="card" style="width: 18rem;">
+        <img src="${project.image}" class="card-img-top" alt="project.image">
+        <div class="card-body">
+          <h5 class="card-title">${project.project}</h5>
+          <p class="card-text">${project.description}</p>
+          <a href="${project.liveURL}" class="btn btn-primary btn-sm">App</a>
+          <a href="${project.gitURL}" class="btn btn-primary btn-sm">GitHub</a>
+        </div>
+      </div> `)
+      $projects.append($projectCard)
+    })
 
 ```
+
+Dynamically renders data from Google Sheets to the DOM to display project information.  
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
