@@ -31,8 +31,8 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
         <div class="card-body">
           <h5 class="card-title">${project.project}</h5>
           <p class="card-text">${project.description}</p>
-          <a href="${project.liveURL}" class="btn btn-primary btn-sm">App</a>
-          <a href="${project.gitURL}" class="btn btn-primary btn-sm">GitHub</a>
+          <a href="${project.liveURL}" target="_blank" class="btn btn-primary btn-sm">App</a>
+          <a href="${project.gitURL}" target="_blank" class="btn btn-primary btn-sm">GitHub</a>
         </div>
       </div> `)
       $projects.append($projectCard)
