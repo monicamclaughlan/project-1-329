@@ -114,6 +114,7 @@ header .dropdown {
 
 .card {
     margin: 10px 0;
+
 }
 
 .btn  { 
@@ -179,8 +180,18 @@ form {
     list-style: none;
     color: var(--foot);
     padding-top: 10px;
-
+    
 }
+
+#social ul li a { 
+    text-decoration: none;
+    color: var(--foot);
+}
+
+#social ul li a:hover { 
+    color:var(--tertiary);
+}
+
 footer { 
     /* grid-column: 1 / 3; 
     grid-row: 3/ 4; */

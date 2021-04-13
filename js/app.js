@@ -26,7 +26,7 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
     projects.forEach((project, index) => {
         console.log(project)
         const $projectCard = $(`
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; height: 420px;">
         <img src="${project.image}" class="card-img-top" alt="project.image">
         <div class="card-body">
           <h5 class="card-title">${project.project}</h5>
