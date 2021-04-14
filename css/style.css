@@ -97,6 +97,10 @@ header .dropdown {
 
 }
 
+#projects img { 
+    border-bottom: 5px solid black;
+}
+
 #projects h5 { 
     font-weight: 700;
 }
@@ -110,7 +114,6 @@ header .dropdown {
 
 .card {
     margin: 10px 0;
-
 }
 
 .btn  { 
