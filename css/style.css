@@ -117,25 +117,10 @@ header .dropdown {
    
 }
 
-/* .hidden-text:hover { 
-    opacity: 0.9; 
-    transform: translate(0,0);
-    background-color: var(--primary);
-    /* border-radius: 15px; */
-    /* color: white;     */
-} */
-
 .hidden-text:focus { 
     outline: none;
     box-shadow: 0 0 0 5px rgba(21, 156, 228, 0.4);    
 }
-
-.hidden-text:active { 
-  color: #fff;
-  background-color: var(--primary);
-  border-color: var(--secondary);
-}
-
 
 #projects h5 { 
     font-weight: 700;
