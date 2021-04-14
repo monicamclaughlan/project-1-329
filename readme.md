@@ -108,16 +108,16 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  :---: | :---: | 
 | Create Grid Layout for entire page | H | 1hr | 0.5 hr |
 | Hamburger | H | 1hr | 1.5hr |
-| Project Previews | H | 3hr | hr |
+| Project Previews | H | 3hr | 2hr |
 | Regular Nav | H | 1hr | 1.5hr | 
 | Footer Nav  | H | 1hr | 0.5hr | 
 | Adding Form | H | 1hr|  0.5hr | 
 | Bootstrap | H | 4hr | 1hr |
 | Other sections and flex| M | 3hr | 0.5hr|
-| Working with API | H | 3hrs|  hr | 
+| Working with API | H | 3hrs|  0.75hr | 
 | Responsive | H | 3hr | 1hr |
 | Social Media Icons | L | 1hr |  0.25hr |
-| Total | H | 22hrs | hrs |
+| Total | H | 22hrs | 10hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
@@ -128,7 +128,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Interactive Banner | M | 4hr | hr |
 | Headless CMS for Blog | H | 4hr | hr |
 | Make carousel for skills | M | 4hr | hr | 
-| Make own icon | L | 4hr | hr |
+| Make own icon | L | 4hr | 0.5hr |
 | Total | H | 23hrs| hrs |
 
 ## Additional Libraries

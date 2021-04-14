@@ -19,11 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
 }
 
-body { 
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 12fr 1fr; */
-}
+
 header { 
     /* grid-column: 1 / 3;
     grid-row: 1 / 2; */
@@ -190,6 +186,14 @@ form {
 
 #social ul li a:hover { 
     color:var(--tertiary);
+}
+
+#social ul li a:focus { 
+    color: var(--primary);
+}
+
+#social ul li a:active { 
+    color: #ffffff;
 }
 
 footer { 
