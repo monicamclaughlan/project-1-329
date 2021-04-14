@@ -27,7 +27,7 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
         console.log(project)
         const $projectCard = $(`
         <div class="card" style="width: 18rem; height: 420px;">
-        <img src="${project.image}" class="card-img-top" alt="project.image" style="height:210px;">
+        <img src="${project.image}" class="card-img-top" alt="${project.project}" style="height:210px;">
         <div class="card-body">
           <h5 class="card-title">${project.project}</h5>
           <p class="card-text" style="height:96px">${project.description}</p>
