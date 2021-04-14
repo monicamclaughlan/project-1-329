@@ -122,7 +122,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | hr | 
+| Project Hover | L | 3hr | 2hr | 
 | Hamburger menu bubble effect | L | 3hr | hr |
 | Banner letters wiggle | L | 1hr | hr |
 | Interactive Banner | M | 4hr | hr |

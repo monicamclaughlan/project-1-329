@@ -30,7 +30,8 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
         <img src="${project.image}" class="card-img-top" alt="project.image" style="height:210px;">
         <div class="card-body">
           <h5 class="card-title">${project.project}</h5>
-          <p class="card-text">${project.description}</p>
+          <p class="card-text" style="height:96px">${project.description}</p>
+          <a href="${project.liveURL}" target="_blank"><p class="hidden-text">See Project Live ></p></a>
           <a href="${project.liveURL}" target="_blank" class="btn btn-primary btn-sm">App</a>
           <a href="${project.gitURL}" target="_blank" class="btn btn-primary btn-sm">GitHub</a>
         </div>
