@@ -117,13 +117,13 @@ header .dropdown {
    
 }
 
-.hidden-text:hover { 
+/* .hidden-text:hover { 
     opacity: 0.9; 
     transform: translate(0,0);
     background-color: var(--primary);
     /* border-radius: 15px; */
-    color: white;    
-}
+    /* color: white;     */
+} */
 
 .hidden-text:focus { 
     outline: none;
