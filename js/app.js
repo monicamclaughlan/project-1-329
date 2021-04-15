@@ -44,6 +44,46 @@ $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ
 // .catch in case of an error
 .catch((error) => { 
     console.error(error)
+
+})
+
+
+
+
+////////////////BLOG POST/////////////////
+
+const guid = '77ec5a1e-u'
+
+const apikey = 'defaultlive.02181210a3084ef33086c9612450d24e68b8fe4c1700a822ae170f727bd90a46'
+
+$.ajax({
+ url: `https://api.aglty.io/${guid}/fetch/en-us/list/myblog`,
+ headers: {
+     accept: "application/json",
+     APIKey: apikey
+ }   
+})
+.then((response) => {
+console.log(response)
+
+    const posts = response.items.map(post =>  post.fields)
+
+    console.log(posts)
+
+    const $blog = $('#blog')
+
+    posts.forEach(post => { 
+        const $div = $("<div>")
+
+        $div.html(`
+        <h4 style="color: var(--foot)">${post.title}</h4>
+        `)
+
+        $blog.append($div)
+
+    })
+
+    //use the data to populate your webpage from here
 })
 
 

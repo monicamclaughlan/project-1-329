@@ -204,10 +204,12 @@ form {
 
 #social { 
     display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
     padding: 20px 0;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     height: 10%;
     background-color: #eeeeee;
 }
@@ -218,16 +220,22 @@ form {
     font-size: 1.5em;
 }
 
+#social ul { 
+    display: flex;
+}
+
 #social ul li { 
     list-style: none;
     color: var(--foot);
     padding-top: 10px;
+    
     
 }
 
 #social ul li a { 
     text-decoration: none;
     color: var(--foot);
+    padding: 0 5px;
 }
 
 #social ul li a:hover { 
@@ -241,6 +249,12 @@ form {
 #social ul li a:active { 
     color: #ffffff;
 }
+
+#blog h4, #blog h3{ 
+    text-align: center;
+}
+
+
 
 /* Footer */
 
