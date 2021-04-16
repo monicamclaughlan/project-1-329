@@ -83,7 +83,7 @@ console.log(response)
 
     })
 
-    //use the data to populate your webpage from here
+    
 })
 
 

@@ -126,7 +126,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Hamburger menu bubble effect | L | 3hr | hr |
 | Banner letters wiggle | L | 1hr | hr |
 | Interactive Banner | M | 4hr | hr |
-| Headless CMS for Blog | H | 4hr | hr |
+| Headless CMS for Blog | H | 4hr | 1hr |
 | Make carousel for skills | M | 4hr | hr | 
 | Make own icon | L | 4hr | 0.5hr |
 | Total | H | 23hrs| hrs |
@@ -159,11 +159,46 @@ Use this section to include a brief code snippet of functionality that you are p
 
 Dynamically renders data from Google Sheets to the DOM to display project information.  
 
+```
+$.ajax({
+ url: `https://api.aglty.io/${guid}/fetch/en-us/list/myblog`,
+ headers: {
+     accept: "application/json",
+     APIKey: apikey
+ }   
+})
+.then((response) => {
+console.log(response)
+
+    const posts = response.items.map(post =>  post.fields)
+
+    console.log(posts)
+
+    const $blog = $('#blog')
+
+    posts.forEach(post => { 
+        const $div = $("<div>")
+
+        $div.html(`
+        <h4 style="color: var(--foot)">${post.title}</h4>
+        `)
+
+        $blog.append($div)
+
+    })
+
+    
+})
+```
+
+Takes information stored in agilitycms using guid and apikey and accesses via ajax.  Appends information to the blog section of the portfolio page. 
+
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
 Hamburger menu toggle when in mobile view: 
  https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+   I did not end up using this method for the navbar but was something I investigated. 
 
 
 
