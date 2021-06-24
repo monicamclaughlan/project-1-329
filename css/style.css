@@ -42,6 +42,10 @@ header .dropdown {
     height: 92px;
 }
 
+header li a:hover { 
+    color: var(--foot)
+}
+
 .dropdown a.fas { 
     background-color: var(--primary);
     color: white;
@@ -254,8 +258,8 @@ form {
 #social ul li { 
     list-style: none;
     color: var(--foot);
-    padding-top: 10px;
-    
+    padding: 10px 10px;
+    font-size: 30px;
     
 }
 
@@ -312,6 +316,10 @@ footer ul li a {
     padding: 5px;
     text-decoration: none;
     color: white;
+}
+
+footer ul li a:hover { 
+    color: var(--primary)
 }
 
 footer ul li a:visited { 
