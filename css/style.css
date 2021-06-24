@@ -66,8 +66,35 @@ header .dropdown {
     padding: 20px 0;
     background-color: #eeeeee;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.animation { 
+    padding-left: 30px;
+    /* width: 100%; */
+    align-self: center;
+}
+
+.animation::before { 
+    content: "Software Engineer";
+    animation: animate infinite 9s;
+}
+
+@keyframes animate {
+  
+    0% {
+        content: "";
+    }
+
+    50% {
+        content: "Fullstack developer";
+    }
+
+    75% {
+        content: "Software Engineer";
+    }
 }
 
 /* About */
