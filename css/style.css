@@ -139,6 +139,7 @@ header li a:hover {
 
 #projects img { 
     border-bottom: 5px solid black;
+    object-fit: contain;
 }
 
 .hidden-text { 
