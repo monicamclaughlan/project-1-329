@@ -26,7 +26,8 @@ header {
     grid-row: 1 / 2; */
     background-color: var(--primary);
     width: 90%;
-    margin: 20px auto 0 auto;
+    margin: 20px auto auto auto;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.21);
  
 }
 header .tablet-desktop { 
@@ -43,7 +44,9 @@ header .dropdown {
 }
 
 header li a:hover { 
-    color: var(--foot)
+    color: var(--foot);
+    font-weight: 700;
+    font-size: 1.1em;
 }
 
 .dropdown a.fas { 
@@ -73,6 +76,7 @@ header li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.21);
 }
 
 .animation { 
@@ -83,7 +87,7 @@ header li a:hover {
 
 .animation::before { 
     content: "Software Engineer";
-    animation: animate infinite 9s;
+    animation: animate infinite 7s;
 }
 
 @keyframes animate {
@@ -115,6 +119,7 @@ header li a:hover {
     justify-content: center;
     padding: 20px 10px;
     border-radius: 0 0 50px 0;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.21);
 }
 
 #about p { 
@@ -199,6 +204,7 @@ header li a:hover {
     justify-content: center;
     align-items: center;
     border-radius: 50px 0 0 0;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.21);
 }
 
 #contact-me p { 
@@ -244,6 +250,7 @@ form {
     align-items: center;
     height: 10%;
     background-color: #eeeeee;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.21);
 }
 
 #social h3 { 
@@ -301,6 +308,7 @@ footer {
     justify-content: flex-start;
     height: 40%;
     border-radius: 50px 0 0 0;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.21);
 }
 
 footer ul { 
@@ -320,7 +328,9 @@ footer ul li a {
 }
 
 footer ul li a:hover { 
-    color: var(--primary)
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.1em;
 }
 
 footer ul li a:visited { 
