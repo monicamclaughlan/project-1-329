@@ -2,7 +2,9 @@
 // Get Data from Google Sheets
 //////////////////////////////////
 
-$.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ9PL5YGRz087Ki9Q/1/public/full?alt=json')
+// $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ9PL5YGRz087Ki9Q/1/public/full?alt=json')
+
+$.ajax('https://spreadsheets.google.com/feeds/list/1qfbsjZ5ksWpwCh7dp-T_tgub-x47uT2O-lyNjeahjOk/1/public/full?alt=json')
 // .then for when data arrives
 .then((data) => { 
     console.log(data)

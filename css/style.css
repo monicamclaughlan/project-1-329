@@ -5,13 +5,12 @@
 }
 
 :root { 
-    --title: 'Noto Sans JS', sans-serif; 
-    --main: 'Roboto', sans-serif;
-    --primary: #F39189;
-    --seconday: #eeeeee;
-    --tertiary: #6E7582;
-    --white: #ffffff;
-    --foot: #046582;
+    --mainbackground: 'Noto Sans JS', sans-serif; 
+    --cardbackground: 'Roboto', sans-serif;
+    --accent: #F39189;
+    --mainheading: #eeeeee;
+    --paragraph: #6E7582;
+    --statsheading: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 { 
