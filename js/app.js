@@ -2,23 +2,37 @@
 // Get Data from Google Sheets
 //////////////////////////////////
 
-// $.ajax('https://spreadsheets.google.com/feeds/list/1olQvC7HDV-6CSBmFOhtJMjsygUTQ9PL5YGRz087Ki9Q/1/public/full?alt=json')
+var url="https://sheets.googleapis.com/v4/spreadsheets/1olQvC7HDV-6CSBmFOhtJMjsygUTQ9PL5YGRz087Ki9Q/values/Sheet1?alt=json&key=AIzaSyCtTrh4YGJhNB0LoIQ0RJ9Rb_iieyspRgA"
 
-$.ajax('https://spreadsheets.google.com/feeds/list/1qfbsjZ5ksWpwCh7dp-T_tgub-x47uT2O-lyNjeahjOk/1/public/full?alt=json')
+
+
+$.ajax(url)
+
 // .then for when data arrives
 .then((data) => { 
-    console.log(data)
+    // console.log(data)
 
     // map over the date to generate a simpler data set
-    const projects = data.feed.entry.map((item) => { 
-        return {
-            description: item.gsx$description.$t, 
-            gitURL: item.gsx$giturl.$t,
-            liveURL: item.gsx$liveurl.$t,
-            image: item.gsx$image.$t, 
-            project: item.gsx$project.$t
+    // const projects = data.feed.entry.map((item) => { 
+    //     return {
+    //         description: item.gsx$description.$t, 
+    //         gitURL: item.gsx$giturl.$t,
+    //         liveURL: item.gsx$liveurl.$t,
+    //         image: item.gsx$image.$t, 
+    //         project: item.gsx$project.$t
             
-        }  
+    //     }  
+    // })
+
+    const projects = data.values.map((item) => {
+        return {
+            description: item[4],
+            gitURL: item[2], 
+            liveURL: item[1], 
+            image: item[3], 
+            project: item[0]
+
+        }
     })
     console.log(projects)
 //////////// jQuery ///////////////
