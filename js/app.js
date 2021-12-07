@@ -1,6 +1,12 @@
+// require('dotenv').config(); 
+
 //////////////////////////////////
 // Get Data from Google Sheets
 //////////////////////////////////
+
+
+
+// const API = process.env.API_KEY;
 
 var url="https://sheets.googleapis.com/v4/spreadsheets/1olQvC7HDV-6CSBmFOhtJMjsygUTQ9PL5YGRz087Ki9Q/values/Sheet1?alt=json&key=AIzaSyCtTrh4YGJhNB0LoIQ0RJ9Rb_iieyspRgA"
 
